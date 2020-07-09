@@ -3,8 +3,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 ul li{
     list-style: none;
+
 }
 h1{
     font-style: normal;
@@ -66,6 +71,12 @@ li.nav-item {
     box-shadow:  0px 10px 40px #2125293d;
     transition: .5s;
 }
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
 .bg_black{
     background: #282531;
 }
@@ -75,4 +86,7 @@ li.nav-item {
 .bg_black ul li{
     list-style: none;
     color: #fff;
+}
+.seat_icon li img {
+    width: 20px;
 }
